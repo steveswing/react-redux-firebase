@@ -1,0 +1,41 @@
+{
+  "name": "react-redux-firebase-basic-firestore-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "firebase": "^7.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
+    "react-google-button": "*",
+    "react-redux": "^7.1.1",
+    "react-redux-firebase": "latest",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.0",
+    "redux-firestore": "latest"
+  },
+  "devDependencies": {
+    "react-scripts": "3.2.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
