@@ -12,7 +12,7 @@ import {
 import NewTodo from './NewTodo'
 import TodosList from './TodosList'
 
-const enhnace = compose(
+const enhance = compose(
   connect(({ firebase: { auth } }) => ({
     uid: auth.uid
   })),
